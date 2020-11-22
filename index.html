@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Instagran boxex</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
+    <div class="container">
+        <div class="phones">
             <div class="images">
                 <img id="0a2d3016f375" src="./imgs/0a2d3016f375.jpg">
                 <img id="6f03eb85463c" src="./imgs/6f03eb85463c.jpg">
@@ -19,11 +19,12 @@
                 <img id="f0c687aa6ec2" src="./imgs/f0c687aa6ec2.jpg">
             </div>
         </div>
-        <div class="instagram-continue">
-            <div class="login">
-                <h1>Instagran</h1>
-                <div class="login-data">
-                    <form id="loginForm" method="post">
+        <div class="auth">
+            <div class="title-login">
+                <h1 class="title">Instagran</h1>
+                <form>
+                    <div class="form">
+
                         <div class="form-itens">
                             <div class="id-field">
                                 <div class="id-field-content">
@@ -33,18 +34,17 @@
                                             autocapitalize="off" autocorrect="off" maxlength="75" name="username"
                                             type="text" value="">
                                     </label>
-                                    <div></div>
+                                    <div class="pdg"></div>
                                 </div>
                             </div>
                             <div class="id-field">
                                 <div class="id-field-content">
                                     <label>
                                         <span class="field-info">Senha</span>
-                                        <input aria-label="Senha" aria-required="true"
-                                            autocapitalize="off" autocorrect="off" maxlength="75" name="password"
-                                            type="password" value="">
+                                        <input aria-label="Senha" aria-required="true" autocapitalize="off"
+                                            autocorrect="off" maxlength="75" name="password" type="password" value="">
                                     </label>
-                                    <div></div>
+                                    <div class="pdg"></div>
                                 </div>
                             </div>
                         </div>
@@ -63,22 +63,28 @@
                                 <span class="fb-icon"></span><span class="fb-text">Entrar com o Facebook</span>
                             </button>
                         </div>
+                        <a class="forget" href="#" tabindex="0">Esqueceu a senha?</a>
                     </div>
-                    <a class="forget" href="#" tabindex="0">Esqueceu a senha?</a>
                 </form>
             </div>
             <div class="register">
                 <div>
-                    <p>Não tem uma conta? <a href="#" tabindex="0" class="register-link"><span>Cadastre-se</span></a></p>
+                    <p>Não tem uma conta? <a href="#" tabindex="0" class="register-link"><span>Cadastre-se</span></a>
+                    </p>
                 </div>
             </div>
             <div class="obtain">
-                <p>Obtenha o aplicativo.</p>
+                <div>
+                    <p>Obtenha o aplicativo.</p>
+                </div>
                 <div class="obt-images">
                     <a href="#"><img class="app-store" alt="Disponível na App Store" src="./imgs/68006a2bb372.png"></a>
-                    <a href="#"><img class="app-store" alt="Disponível no Google Play" src="./imgs/2f2a0c05b2f3.png"></a></div>
+                    <a href="#"><img class="app-store" alt="Disponível no Google Play"
+                            src="./imgs/2f2a0c05b2f3.png"></a>
                 </div>
+            </div>
         </div>
+    </div>
     </div>
     <script>
 
